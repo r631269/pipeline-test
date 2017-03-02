@@ -11,9 +11,9 @@ phases:
     pre_build:
         commands:
             - npm test
-    build:
-        commands:
-            - docker build -t deleteme ./
+#    build:
+#        commands:
+#            - docker build -t deleteme ./
 #    post_build:
 #        commands:
 #            - docker push deleteme ecr
