@@ -22,5 +22,5 @@ artifacts:
         - package.json
         - index.js
     discard-paths: yes
-    base-directory: /var/www/
+    #base-directory: /var/www/
 
